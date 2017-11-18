@@ -1,0 +1,39 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+
+p + p {
+    margin-top: 24px;
+}
+
+a, .message-body a:not(.button):not(.tag) {
+    color: #EC5800;
+    text-decoration: none;
+}
+
+a:hover, .message-body a:not(.button):hover {
+    color: #EC5800;
+    text-decoration: underline;
+}
+
+#faq, .hero {
+    background-color: #EC5800;
+}
+
+.hero .title, .hero .subtitle {
+    color: #FFFFFF;
+}
+
+.message-header {
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+
+article {
+    max-width: 600px;
+    margin: auto;
+}
+
+footer p {
+    margin-top: 0;
+}
