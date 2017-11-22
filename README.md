@@ -1,7 +1,7 @@
 # Jolly Code
 Not all code has to be serious business®
 
-[Jolly Code](https://jollycode.org) is a collection of funny programming projects.
+[Jolly Code](https://jollycode.org) is a celebration of fun programming projects.
 
 ## Contributing
 Please feel free to submit an issue or pull request. The website is simple

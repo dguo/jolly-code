@@ -16,6 +16,17 @@ a:hover, .message-body a:not(.button):hover {
     text-decoration: underline;
 }
 
+#explanation {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#projects {
+    padding-top: 0;
+}
+
 #faq, .hero {
     background-color: #EC5800;
 }
@@ -28,6 +39,10 @@ a:hover, .message-body a:not(.button):hover {
     padding-left: 1.25em;
     padding-right: 1.25em;
 }
+
+/* .message-body { */
+    /* background-color: #ffdd57; */
+/* } */
 
 article {
     max-width: 600px;
