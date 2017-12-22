@@ -16,6 +16,14 @@ a:hover, .message-body a:not(.button):hover {
     text-decoration: underline;
 }
 
+#logo {
+    max-height: 6em;
+}
+
+#name {
+    margin-bottom: 0.8em;
+}
+
 #explanation {
     margin-top: 3em;
     margin-bottom: 3em;
