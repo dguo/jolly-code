@@ -1,5 +1,6 @@
 # Jolly Code
-Not all code has to be serious business®
+
+Not all code has to be serious business™
 
 [Jolly Code](https://jollycode.org) is a celebration of fun programming projects.
 
