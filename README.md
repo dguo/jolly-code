@@ -1,5 +1,7 @@
 # Jolly Code
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d9d2aaba-c2ee-49a7-94a0-22efce662f3b/deploy-status)](https://app.netlify.com/sites/jolly-code/deploys)
+
 Not all code has to be serious business™
 
 [Jolly Code](https://jollycode.org) is a celebration of fun programming projects.
