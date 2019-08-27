@@ -1,18 +1,20 @@
 body {
-    font-family: "Comic Sans MS", "Comic Sans", 'Indie Flower', sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", "Indie Flower", sans-serif;
 }
 
 p + p {
     margin-top: 24px;
 }
 
-a, .message-body a:not(.button):not(.tag) {
-    color: #EC5800;
+a,
+.message-body a:not(.button):not(.tag) {
+    color: #ec5800;
     text-decoration: none;
 }
 
-a:hover, .message-body a:not(.button):hover {
-    color: #EC5800;
+a:hover,
+.message-body a:not(.button):hover {
+    color: #ec5800;
     text-decoration: underline;
 }
 
@@ -35,12 +37,14 @@ a:hover, .message-body a:not(.button):hover {
     padding-top: 0;
 }
 
-#faq, .hero {
-    background-color: #EC5800;
+#faq,
+.hero {
+    background-color: #ec5800;
 }
 
-.hero .title, .hero .subtitle {
-    color: #FFFFFF;
+.hero .title,
+.hero .subtitle {
+    color: #ffffff;
 }
 
 .message-header {
@@ -49,7 +53,7 @@ a:hover, .message-body a:not(.button):hover {
 }
 
 /* .message-body { */
-    /* background-color: #ffdd57; */
+/* background-color: #ffdd57; */
 /* } */
 
 article {
