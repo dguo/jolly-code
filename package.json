@@ -1,16 +1,22 @@
 {
-  "name": "jolly-code",
-  "description": "Website for listing funny programming projects",
-  "version": "0.1.0",
-  "main": "N/A",
-  "scripts": {
-    "start": "yarn install && live-server --no-browser public"
-  },
-  "repository": "https://github.com/dguo/jolly-code",
-  "author": "Danny Guo",
-  "license": "MIT",
-  "private": true,
-  "devDependencies": {
-    "live-server": "1.2.1"
-  }
+    "name": "jolly-code",
+    "description": "Website for listing funny programming projects",
+    "version": "0.1.0",
+    "main": "N/A",
+    "scripts": {
+        "format": "prettier --write \"./**/*.{css,html,json,md}\"",
+        "format:check": "prettier --list-different \"./**/*.{css,html,json,md}\"",
+        "start": "yarn install && live-server --no-browser public"
+    },
+    "repository": "https://github.com/dguo/jolly-code",
+    "author": "Danny Guo",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "live-server": "1.2.1",
+        "prettier": "^1.18.2"
+    },
+    "prettier": {
+        "tabWidth": 4
+    }
 }
