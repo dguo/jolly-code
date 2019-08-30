@@ -12,6 +12,7 @@ a,
     text-decoration: none;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 a:hover,
 .message-body a:not(.button):hover {
     color: #ec5800;
@@ -51,10 +52,6 @@ a:hover,
     padding-left: 1.25em;
     padding-right: 1.25em;
 }
-
-/* .message-body { */
-/* background-color: #ffdd57; */
-/* } */
 
 article {
     max-width: 600px;
