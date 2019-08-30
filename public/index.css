@@ -7,14 +7,14 @@ p + p {
 }
 
 a,
-.message-body a:not(.button):not(.tag) {
+.message-body a:not(.button):not(.tag):not(.dropdown-item) {
     color: #ec5800;
     text-decoration: none;
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
 a:hover,
-.message-body a:not(.button):hover {
+.message-body a:not(.button):not(.tag):not(.dropdown-item):hover {
     color: #ec5800;
     text-decoration: underline;
 }
