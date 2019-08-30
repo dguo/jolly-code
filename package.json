@@ -6,6 +6,8 @@
     "scripts": {
         "format": "prettier --write \"./**/*.{css,html,json,md}\"",
         "format:check": "prettier --list-different \"./**/*.{css,html,json,md}\"",
+        "lint": "yarn run lint:html",
+        "lint:html": "htmlhint ./**/*.html",
         "start": "yarn install && live-server --no-browser public"
     },
     "repository": "https://github.com/dguo/jolly-code",
@@ -13,6 +15,7 @@
     "license": "MIT",
     "private": true,
     "devDependencies": {
+        "htmlhint": "^0.11.0",
         "live-server": "1.2.1",
         "prettier": "^1.18.2"
     },
