@@ -6,8 +6,9 @@
     "scripts": {
         "format": "prettier --write \"./**/*.{css,html,json,md}\"",
         "format:check": "prettier --list-different \"./**/*.{css,html,json,md}\"",
-        "lint": "yarn run lint:html",
-        "lint:html": "htmlhint ./**/*.html",
+        "lint": "yarn run lint:html && yarn run lint:css",
+        "lint:css": "stylelint **/*.css",
+        "lint:html": "htmlhint **/*.html",
         "start": "yarn install && live-server --no-browser public"
     },
     "repository": "https://github.com/dguo/jolly-code",
@@ -17,9 +18,14 @@
     "devDependencies": {
         "htmlhint": "^0.11.0",
         "live-server": "1.2.1",
-        "prettier": "^1.18.2"
+        "prettier": "^1.18.2",
+        "stylelint": "^10.1.0",
+        "stylelint-config-recommended": "^2.2.0"
     },
     "prettier": {
         "tabWidth": 4
+    },
+    "stylelint": {
+        "extends": "stylelint-config-recommended"
     }
 }
