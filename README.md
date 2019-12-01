@@ -1,7 +1,7 @@
 # Jolly Code
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d9d2aaba-c2ee-49a7-94a0-22efce662f3b/deploy-status)](https://app.netlify.com/sites/jolly-code/deploys)
-[![Build Status](https://travis-ci.org/dguo/jolly-code.svg?branch=master)](https://travis-ci.org/dguo/jolly-code)
+[![CI status](https://github.com/dguo/jolly-code/workflows/CI/badge.svg)](https://github.com/dguo/jolly-code/actions?query=branch%3Amaster)
 
 Not all code has to be serious business™
 
