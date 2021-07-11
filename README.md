@@ -1,7 +1,7 @@
 # Jolly Code
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d9d2aaba-c2ee-49a7-94a0-22efce662f3b/deploy-status)](https://app.netlify.com/sites/jolly-code/deploys)
-[![CI status](https://github.com/dguo/jolly-code/workflows/CI/badge.svg)](https://github.com/dguo/jolly-code/actions?query=branch%3Amaster)
+[![CI status](https://github.com/dguo/jolly-code/workflows/CI/badge.svg)](https://github.com/dguo/jolly-code/actions?query=branch%3Amain)
 
 Not all code has to be serious business™
 
@@ -20,4 +20,4 @@ installed, you can run `$ ./dev start` instead.
 
 ## License
 
-[MIT](https://github.com/dguo/make-a-readme/blob/master/LICENSE)
+[MIT](https://github.com/dguo/make-a-readme/blob/main/LICENSE)
