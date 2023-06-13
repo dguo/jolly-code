@@ -1,6 +1,9 @@
 [build]
   publish = "public"
 
+[build.environment]
+  YARN_VERSION = "3.6.0"
+
 [build.processing]
   skip_processing = false
 [build.processing.css]
